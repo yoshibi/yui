@@ -56,14 +56,14 @@ nav.main a:hover{color:var(--vermillion)}
 .btn.ghost{color:var(--indigo);background:transparent}
 .btn.ghost:hover{background:var(--indigo);color:#fff}
 .hero-photo{position:relative;clip-path:polygon(20% 0,100% 0,100% 100%,0 100%);background:var(--indigo)}
-.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 88%}
+.hero-photo img{width:100%;height:100%;object-fit:cover;object-position:center 70%}
 .hero-photo .badge{position:absolute;right:18px;bottom:18px;background:var(--indigo);color:#fff;font-size:11px;letter-spacing:.18em;padding:7px 14px}
-.hero-vtext{position:absolute;top:96px;right:calc(50% - 4px);writing-mode:vertical-rl;font-family:var(--serif);letter-spacing:.42em;font-size:13px;color:var(--indigo);background:var(--paper);padding:14px 7px;border:1px solid var(--line)}
+.hero-vtext{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);font-family:var(--serif);letter-spacing:.3em;font-size:13px;color:var(--indigo);background:var(--paper);padding:10px 22px;border:1px solid var(--line);white-space:nowrap;z-index:5}
 @media(max-width:860px){
   .hero-in{grid-template-columns:1fr;min-height:0}
   .hero-text{padding:48px 24px 8px}
   .hero-photo{clip-path:none;height:520px;margin-top:28px}
-  .hero-vtext{display:none}
+  .hero-vtext{font-size:11px;letter-spacing:.16em;padding:8px 14px;bottom:12px}
 }
 
 /* declaration */
@@ -192,11 +192,11 @@ dialog#teacherModal::backdrop{background:rgba(23,30,66,.55)}
       </div>
     </div>
     <div class="hero-photo">
-      <img src="hero.jpg" alt="御手洗の通りを歩く、着物姿の後ろ姿">
-      <span class="badge">CURATED BY YUMI — HIROSHIMA</span>
+      <img src="hero.jpg" alt="古い町並みを歩く、紺色の着物姿の女性">
+      <span class="badge">YOUR RELIABLE KIMONO SUPPORTERS</span>
     </div>
   </div>
-  <div class="hero-vtext">きものすなお認定講師図鑑</div>
+  <div class="hero-vtext">きものすなお認定講師図鑑（4期）</div>
 </div>
 
 <div class="declare">
