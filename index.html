@@ -144,7 +144,7 @@ footer .f-meta{font-size:12px;color:#9aa0c4;line-height:2;text-align:right}
 @media(max-width:720px){footer .f-meta{text-align:left}}
 
 /* modal */
-dialog#teacherModal{border:none;padding:0;max-width:640px;width:calc(100vw - 36px);background:#fff;box-shadow:0 24px 60px rgba(20,20,40,.35)}
+dialog#teacherModal{border:none;padding:0;max-width:640px;width:calc(100vw - 36px);background:#fff;box-shadow:0 24px 60px rgba(20,20,40,.35);position:fixed;inset:0;margin:auto;height:fit-content;max-height:calc(100vh - 40px);overflow-y:auto}
 dialog#teacherModal::backdrop{background:rgba(23,30,66,.55)}
 .modal-in{display:grid;grid-template-columns:230px 1fr}
 .modal-in .m-photo{background:var(--paper-2);display:flex;align-items:center;justify-content:center}
